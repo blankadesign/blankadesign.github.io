@@ -1,6 +1,58 @@
 // this is the sass file
-
+$color-main: #E32264;
+$font-size: 16px;
 
 * {
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	// font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: $font-size * 1.5;
+	color: white;
+}
+
+.background {
+	background-image: url("../img/duotone-guacamaya.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.topbar {
+	display: block;
+	color: white;
+	padding: 15px;
+	.logo h1 {
+		font-weight: 300;
+	}
+}
+
+
+.nav  {
+	display: block;
+	position: absolute;
+	top: 25vh;
+	right: 30px;
+	list-style-type: none;
+	direction: rtl;
+	a {
+		font-weight: 600;
+		text-decoration: none;
+		font-size: $font-size * 4;
+	}
+}
+
+.footer {
+	display: block;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	a {
+		color: white;
+		text-decoration: none;
+		font-weight: 300;
+	}
 }
