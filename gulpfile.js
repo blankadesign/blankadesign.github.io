@@ -1,6 +1,5 @@
 // gulpfile.js
 var gulp = require("gulp")
-var notify = require("gulp-notify");
 var clean = require("gulp-clean");
 var prefixer = require("gulp-autoprefixer");
 var concatenate = require("gulp-concat");
