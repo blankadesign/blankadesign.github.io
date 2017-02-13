@@ -14,14 +14,12 @@
   margin: 0;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 24px;
-  color: white; }
-
-.fadein {
+  color: white;
   animation: fadein 2s ease-out; }
 
 .background {
-  background-image: url("../img/duotone-guacamaya.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
@@ -58,7 +56,8 @@
 
 @media (max-width: 990px) {
   .nav {
-    direction: ltr;
-    left: 5vw; }
+    right: 10px; }
     .nav a {
-      font-size: 48px; } }
+      font-size: 48px; }
+  .background {
+    background-position: center center; } }
