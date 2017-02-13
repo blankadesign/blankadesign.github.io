@@ -1,3 +1,13 @@
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  51% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,6 +15,9 @@
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: white; }
+
+.fadein {
+  animation: fadein 2s ease-out; }
 
 .background {
   background-image: url("../img/duotone-guacamaya.png");
@@ -42,3 +55,10 @@
     color: white;
     text-decoration: none;
     font-weight: 300; }
+
+@media (max-width: 990px) {
+  .nav {
+    direction: ltr;
+    left: 5vw; }
+    .nav a {
+      font-size: 48px; } }

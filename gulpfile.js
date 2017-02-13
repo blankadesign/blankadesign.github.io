@@ -5,6 +5,7 @@ var prefixer = require("gulp-autoprefixer");
 var concatenate = require("gulp-concat");
 var sass = require("gulp-sass");
 var browserSync = require("browser-sync");
+const imagemin = require('gulp-imagemin');
 
 //compile sass
 gulp.task('sass', function() {
@@ -23,3 +24,12 @@ gulp.task('default', ['sass'], function() {
     gulp.watch("scss/*.scss", ['sass']);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
+
+
+// optimize images
+ 
+gulp.task('optimize', () =>
+    gulp.src('img/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('img'))
+);
