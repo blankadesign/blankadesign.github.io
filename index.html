@@ -43,10 +43,31 @@
 	<meta name="msapplication-config" content="/browserconfig.xml">
 <!-- favicons -->
 
-</head>
-<body style="background-color: #E91E63">
+<style>
+	@keyframes fadein {
+		  0% {
+		    opacity: 0; }
+		  50% {
+		    opacity: 0; }
+		  51% {
+		    opacity: 0.1; }
+	    80% {
+	    opacity: 0.9; }		
+		  100% {
+		    opacity: 1; } 
+		  }
+		  
+.fade {
+	animation: fadein 2s ease-out;
+}
 
-<div class="background" style="background-image: url(img/duotone.png);">
+</style>
+
+
+</head>
+<body>
+
+<div class="background fade" style="background-image: url(img/duotone-guacamaya.png);">
 
 	<div class="topbar">
 		<div class="logo"><h1><i class="fa fa-circle"></i> Blanka <span style="opacity: 0.6; font-weight: 300;">Design</span></h1></div>
