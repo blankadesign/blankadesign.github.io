@@ -101,6 +101,11 @@ h4 { opacity: 0.8;
 .section2 {
 	height: 80vh;
 }
+.separator {
+	display: block;
+	background-color: white;
+	height: 400px;
+}
 .section3 {
 	background-color: #f2f2f2;
 	height: auto;
@@ -390,7 +395,12 @@ h4 { opacity: 0.8;
 	}
 } 
 
-
+@media (max-width: 500px) {
+	.separator {height: 200px;}
+}
+@media (max-width: 400px) {
+	.separator {height: 100px;}
+}
 
 
 @media (max-width: 990px) {
