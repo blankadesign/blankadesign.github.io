@@ -326,7 +326,9 @@ a:hover {
   .navi-logo-text {
     display: inline-block; }
   .mobile img {
-    width: 20vw; } }
+    width: 20vw; }
+  .cta {
+    font-size: 22px; } }
 
 @media (max-width: 990px) {
   .slogan {
