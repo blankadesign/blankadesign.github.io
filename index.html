@@ -13,8 +13,9 @@
 	<meta property="og:description" content="Normal is not what we do" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://blanka.design" />
-	<meta property="og:image" content="http://edz.io/img/duotone-guacamaya.png" />
-<!-- CDN -->
+	<meta property="og:image" content="http://blanka.design/img/duotone-guacamaya.png" />
+<!-- STYLES & CDN -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600,800" rel="stylesheet">
@@ -22,25 +23,7 @@
 <!-- favicons -->
 	<link rel="icon" href="http://blankadesign.github.io/img/favicon.ico?v=2" />
 	<link rel="shortcut icon" href="img/favicon.ico">
-	<link rel="icon" sizes="16x16 32x32 64x64" href="img/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="img/favicon-192.png">
-	<link rel="icon" type="image/png" sizes="160x160" href="img/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64" href="img/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
-	<link rel="apple-touch-icon" href="img/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon-180.png">
-	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="img/favicon-144.png">
-	<meta name="msapplication-config" content="/browserconfig.xml">
+
 <!-- favicons -->
 
 <style>
@@ -59,6 +42,7 @@
 		  
 .fade {
 	animation: fadein 3s ease-out;
+	animation-fill-mode: forwards;
 }
 
 </style>
@@ -67,29 +51,97 @@
 </head>
 <body style="background-color: #E32264">
 
-<div class="background fade" style="background-image: url(img/duotone-guacamaya.png);">
-
-	<div class="topbar">
-		<div class="logo"><h1><i class="fa fa-circle"></i> Blanka <span style="opacity: 0.6; font-weight: 300;">Design</span></h1></div>
+<!--section 1 - Header -->
+	<div class="background fade" style="background-image: url(img/duotone-guacamaya.png);">
+		<div class="topbar">
+			<div class="logo"><h2><i class="fa fa-circle"></i> Blanka <span style="opacity: 0.6; font-weight: 300; font-size: inherit;">Design</span></h2></div>
+		</div>
+		<div class="slogan text-right white-text">
+			<h1>Tienes una idea</h1>
+			<h2>Nosotros la construimos</h2>
+		</div>
+		<div class="footer-mail">
+			<a href="mailto:hey@blanka.design">hey@blanka.design</a>
+		</div>	
 	</div>
 
-	<div class="nav">
-		<li><a href="#">portafolio</a></li>
-		<li><a href="#">nosotros</a></li>
+<!--section 2-->
+	<div class="section section2">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-6 white-paragraph-block"><h3 class="text-gradient">Destreza UX/UI</h3>
+				<p>Impulsamos tu proyecto al siguiente nivel. Diseñamos productos digitales totalmente increíbles y únicos.</p></div>
+				<div class="col-xs-12 col-md-6 pull-right"><img class="img-responsive" src="img/lamagia.png"></div>
+			</div>
+		</div>
 	</div>
 
+<!--section 3 | contratame -->
+	<div class="section section3">
+		<div class="container"><h3 class="text-gradient text-left">Nuestro Trabajo</h3></div>
+		<div class="project-card-big"><a href="contratame.html">
+			<div class="project-card-container">
+				<h1>Contrátame.co</h1>
+				<h4>Materializamos el mejor sitio web en dónde expertos no pierden su tiempo buscando ofertas laborales, sino que lo invierten encontrando clientes de una manera eficaz y directa. Contrátame.co marca significativamente el siguiente paso a nivel laboral en Colombia.</h4>
+			</div></a>
+		</div>
+	</div>
 
+<!--section 4 | Otros proyectos-->
+<div id="trabajos" class="section section4">
+	<div class="container">
+		<h1 class="text-gradient">Otros Proyectos</h1>
+			<div class="row">
 
-	<div class="footer">
-		<a href="mailto:hey@blanka.design">hey@blanka.design</a>
-	</div>	
+					<div class="col-xs-12 col-md-4 img-caption">
+						<a href="/tropi.html">
+							<div class="text-overlay">	
+								<img class="img-responsive" src="img/tropi1.png">
+								<h4 class="img-caption-text">Tropical Fruit</h4>
+							</div>
+						</a>
+					</div>
 
+				<div class="col-xs-12 col-md-4 img-caption">
+						<a href="/agileapp.html">
+							<div class="text-overlay">	
+								<img class="img-responsive" src="img/AgileApp-double.png">
+								<h4 class="img-caption-text">AgileSpring App</h4>
+							</div>
+						</a>
+					</div>
 
+				<div class="col-xs-12 col-md-4 img-caption">
+						<a href="/prototipos.html">
+							<div class="text-overlay">	
+								<img class="img-responsive" src="img/038-calendar.gif">
+								<h4 class="img-caption-text">Prototipos</h4>
+							</div>
+						</a>
+					</div>
 
+			</div>
+	</div>
 
-
+	<!--section4 / cta-->
+	<div class="container cta-container section text-center">
+		<h1>¿Tienes algún proyecto que quieras realizar?</h1><br><br>
+		<a class="cta" href="mailto:hey@blanka.design"><i class="fa fa-envelope-o"></i> Contáctanos</a>
+	</div>
 
 </div>
+
+<!--footer-->
+<div class="section footer">
+	<h6 class="copyright text-center white-text">Blanka Design 2017 | All Rights Reserved</h6>
+</div>
+	
+
+
+
+
+
+
 
 </body>
 </html>

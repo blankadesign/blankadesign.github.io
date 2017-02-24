@@ -18,7 +18,7 @@ gulp.task('sass', function() {
 gulp.task('default', ['sass'], function() {
 
     browserSync.init({
-        server: "."
+        server: "./"
     });
 
     gulp.watch("scss/*.scss", ['sass']);
@@ -28,8 +28,8 @@ gulp.task('default', ['sass'], function() {
 
 // optimize images
  
-gulp.task('optimize', () =>
+gulp.task('opti', () =>
     gulp.src('img/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('img'))
+        .pipe(gulp.dest('opti'))
 );
