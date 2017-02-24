@@ -27,6 +27,10 @@ h4 {
 .white-text {
   color: white !important; }
 
+.card-shadow {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 52px rgba(0, 0, 0, 0.22);
+  border-radius: 10px; }
+
 .navi {
   display: block;
   width: 100%;
@@ -84,6 +88,11 @@ h4 {
 
 .section2 {
   height: 80vh; }
+
+.separator {
+  display: block;
+  background-color: white;
+  height: 400px; }
 
 .section3 {
   background-color: #f2f2f2;
@@ -329,6 +338,14 @@ a:hover {
     width: 20vw; }
   .cta {
     font-size: 22px; } }
+
+@media (max-width: 500px) {
+  .separator {
+    height: 200px; } }
+
+@media (max-width: 400px) {
+  .separator {
+    height: 100px; } }
 
 @media (max-width: 990px) {
   .slogan {

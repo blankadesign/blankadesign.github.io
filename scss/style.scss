@@ -33,6 +33,11 @@ h4 { opacity: 0.8;
 	color: white !important;
 }
 
+.card-shadow {
+	box-shadow: $box-shadow;
+	border-radius: 10px;
+}
+
 //navigation
 .navi {
 	display: block;
