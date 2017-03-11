@@ -167,10 +167,10 @@ h4 { opacity: 0.8;
 	  box-shadow: $box-shadow;
 	  width: 90vw;
 	  height: 80vh;
-	  background-color: gray;
+	  background-color: white !important;
 	  display: block;
 	  margin: auto;
-	  background: url("../img/contratame-MacBook-Gold.png");
+	  background: url("../img/contratame-MacBook-Gold.jpg");
 	  background-size: 50%;
 	  background-position: center right;
 	  background-repeat: no-repeat;
@@ -279,7 +279,7 @@ h4 { opacity: 0.8;
 	position: relative;
 	height: 20vh;
 	filter: grayscale(1);
-	background: url("../img/duotone-guacamaya.png") center;
+	background: url("../img/duotone-guacamaya.jpg") center;
 }
 
 .copyright {
