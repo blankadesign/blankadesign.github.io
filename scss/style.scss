@@ -410,6 +410,7 @@ h4 { opacity: 0.8;
 
 @media (max-width: 990px) {
 	.slogan {
+		h1 {font-size: 42px;}
 		right: 10px;
 			 a {
 			font-size: $font-size * 3;
@@ -417,5 +418,12 @@ h4 { opacity: 0.8;
 	}
 	.background {
 		background-position: center center;
+	}
+	.white-paragraph-block {
+    padding-top: 0px;
+	}
+	.text-gradient {
+	    height: 100px;
+	    margin-top: 0px;
 	}
 }
