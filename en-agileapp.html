@@ -1,0 +1,239 @@
+<!-- agileapp.html -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="dns-prefetch" href="//blanka.design">
+	<link rel="preconnect" href="http://blanka.design">
+	
+<!-- meta -->
+	<title>Blanka Design</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Blanka Design" />
+	<meta property="og:description" content="Normal is not what we do" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://blanka.design" />
+	<meta property="og:image" content="http://blanka.design/img/duotone-guacamaya.jpg" />
+<!-- STYLES & CDN -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600,800" rel="stylesheet">
+
+<!-- favicons -->
+	<link rel="icon" href="http://blankadesign.github.io/img/favicon.ico?v=2" />
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+<!-- favicons -->
+	
+	<style>
+		* {
+			box-sizing: border-box;
+			transition: all ease-out 200ms;
+		}
+		.opaque {
+			opacity: 0.6;
+		}
+		.nav-social {
+			margin: 0px;
+			padding: 0px;
+		}
+		.nav-social .fa {
+			color: black;
+			transition: all 100ms ease-out;	
+			box-sizing: border-box;
+			padding: 15px;
+		}
+		a {
+			color: black;
+		}
+		a:hover {
+			color: dodgerblue;
+			text-decoration: none;
+		}
+		.footer-project {
+			margin: 50px auto;
+			vertical-align: middle;
+		}
+		.constrained {
+			max-width: 600px;
+		}
+		.container {
+			padding: 5vh 15px;
+		}
+		.test {
+			background-color: gray;
+		}
+		@keyframes fadein {
+		  0% {
+		    opacity: 0; }
+		  50% {
+		    opacity: 0; }
+		  51% {
+		    opacity: 0.1; }
+		  100% {
+		    opacity: 1; } 
+		  }
+		
+	</style>
+
+
+
+</head>
+
+
+<body style="background-color: #f2f2f2; animation: fadein 1200ms ease-out;">
+
+<!-- navigation -->
+<div class="navi">
+	<div class="navi-wrap">
+		
+		<a class="navi-index" href="en-index.html">
+			<div class="navi-logo">
+				<i class="fa fa-circle" style="color: #E32264;"></i>
+			<!-- full logo -->
+				<h1 class="navi-logo-text desktop">Blanka<span class="opaque" style="font-size: inherit; font-weight: 300;">Design</span></h1>
+			<!-- mini logo -->
+				<h1 class="navi-logo-text mobile">B<span class="opaque" style="font-size: inherit; font-weight: 300;">D</span></h1>
+			</div>
+		</a>
+
+		<div class="navi-nav">
+			<ul class="navi-nav-list">
+				<li><a href="en-index.html#work">Our Work</a></li>
+				<li><a id="cta-mini" href="mailto:mangobiche@blanka.design">Get in touch</a></li>
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+
+<!-- header -->
+
+<div class="container text-center">
+	<div class="container text-center">
+		<h1 class="text-gradient">AgileSprint App</h1>
+		<h6 class="opaque">Mobile | Responsive | Prototype</h6>
+		<br>
+		<p class="constrained center-block">We designed a project managment tool which connects to Trello's API, allowing scrum teams to keep track of every task status of a sprint.</p>
+	</div>
+</div>
+
+<br>
+
+<div class="text-center">
+	<img class="img-responsive center-block" src="img/Jumbrotron-AgileApp.png">
+</div>
+
+<!-- The Project-->
+<div class="container project-container">
+
+	<div class="row">
+		<div class="col-xs-12 col-md-6 constrained">
+			<h1>The Project</h1>
+				<p>As teams grow, keeping track of each sprint's progress gets complex. Walls full of Post-It's do not escalate so well.
+				<br><br>
+				Trello helps to organize work but updating it takes time and it does not show progress in a visual manner.
+				<br><br>
+				Through our research, we came to realize that Trello's API could be used to create an extension.<br><br>
+			<h1>Objectives</h1>
+			<ul class="bullets">
+				<li>Simple and easy to to use.</li>
+				<li>Completely responsive</li>
+				<li>Fun usage to drive it's adoption</li>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-md-6 col-lg-6">
+			<img class="img-responsive" src="img/AgileApp-Project.png">
+		</div>
+		
+	</div>
+</div> 
+<!-- end The Project  -->
+
+<!-- 1, sprint 1 designer -->
+<div class="container project-container text-center">
+	<h1>One Design Sprint</h1>
+	<p class="text-center constrained center-block">For this project we used Google Ventures' one-week, sprint methodology. We dedicated to research, to planning, wireframing and visual design one day each. We built a working MVP and reserved the last to testing and validation.</p>
+	<br><br>
+	<img class="text-center img-responsive center-block" src="img/AgileApp-double-view.png"><br>
+	<img class="center-block img-responsive" src="img/sprint.png">
+</div>
+
+<!-- how it works -->
+<div class="container project-container">
+	<div class="row">
+		<div class="col-xs-12 col-md-8">
+			<img class="img-responsive" src="img/AgileApp-3-Phones-Mockup.png">
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<h1 class="constrained">How it Works</h1><br>
+			<p class="constrained">The app has 2 main views: Check-in and Dashboard.
+<br><br>
+At Check in you can update every assigned task status. If you choose "blocked" you can write a message for the rest of the team.
+<br><br>
+The message is published as a comment in its Trello task through the API.
+			</p>
+		</div>
+	</div>
+</div>
+
+<!--desktop version section -->
+
+<div class="container project-container">
+	<div class="row">
+
+		<div class="col-xs-12 col-md-4">
+			<h1 class="constrained">Desktop Version</h1><br>
+			<p class="constrained">
+			Dashboard's cards use color classification iconography allowing a quick identification and marking of every status.
+			<br><br>
+			To take andvantage of bigger screen sizes, both sections are shown in the same view.
+			</p>
+			<br><br>
+		</div>
+
+		
+		<div class="col-xs-12 col-md-8">
+			<img class="img-responsive" src="img/AgileApp-DesktopVersion.png">
+		</div>
+
+	</div>
+</div>
+
+<!-- Mobile Version-->
+<div class="container project-container text-center">
+	<h1>Mobile Version</h1>
+	<p class="text-center constrained center-block">We used Flinto to build an interactive prototype of the mobile app. Flinto allows a glimpse of how the native app interaction would feel. Everybody loved it!</p>
+	<br><br>
+	<img class="text-center img-responsive center-block" src="img/AgileApp-Mobile.png">
+</div>	
+
+
+
+<!-- cta-->
+	<div class="container cta-container section text-center">
+		<h1>Let's talk about your project</h1><br><br>
+		<a class="cta" href="mailto:mangobiche@blanka.design"><i class="fa fa-envelope"></i> Get in touch</a>
+	</div>
+<!--footer-->
+<div class="section footer">
+	<h6 class="copyright text-center white-text">Blanka Design 2017 | All Rights Reserved</h6>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+

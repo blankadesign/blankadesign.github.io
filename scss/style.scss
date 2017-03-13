@@ -27,6 +27,7 @@ body {
 }
 
 h4 { opacity: 0.8;
+	line-height: 1.5;
 }
 
 .white-text {
@@ -398,7 +399,8 @@ h4 { opacity: 0.8;
 	.navi-logo-text {display:inline-block;}
 	.mobile img {width: 20vw;}
 	.cta {
-		font-size: 22px;
+		font-size: 20px;
+		letter-spacing: 0px;
 	}
 } 
 
@@ -428,5 +430,10 @@ h4 { opacity: 0.8;
 	.text-gradient {
 	    height: 100px;
 	    margin-top: 0px;
+	}
+	.navi-nav-list a {
+		margin-top: 16px;
+    padding: 7px 15px;
+    display: block;
 	}
 }
