@@ -5,8 +5,6 @@ var prefixer = require("gulp-autoprefixer");
 var concatenate = require("gulp-concat");
 var sass = require("gulp-sass");
 var browserSync = require("browser-sync");
-
-
 // optimizers
 const imagemin = require('gulp-imagemin');
 var minify = require('gulp-minifier');

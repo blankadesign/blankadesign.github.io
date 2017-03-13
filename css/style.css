@@ -1,1 +1,366 @@
-#cta-mini:hover,.card-shadow,.cta:active,.cta:focus,.cta:hover,.project-card-big,.text-overlay:active,.text-overlay:focus,.text-overlay:hover{box-shadow:0 19px 38px rgba(0,0,0,.3),0 15px 52px rgba(0,0,0,.22)}.breadcrumb a:last-child,.navi-nav{float:right}*,.nav-social .fa{box-sizing:border-box}.footer-mail a,.img-caption a,.project-card-big a,a:hover{text-decoration:none}@keyframes fadein{0%,50%{opacity:0}51%{opacity:.1}80%{opacity:.9}100%{opacity:1}}body{animation:fade 2s ease-out}*{padding:0;margin:0;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;transition:all .2s ease-out}h4{opacity:.8}.white-text{color:#fff!important}.card-shadow{border-radius:10px}.navi{display:block;width:100%;height:auto;position:fixed;z-index:1;background-color:#f2f2f2}.navi-logo{display:inline-block}.navi-logo .fa-circle,.navi-logo .navi-logo-text{font-size:24px}.navi-wrap{width:90vw;display:block;margin:auto}.navi-logo-text{display:inline-block;color:#333}.navi-logo-text:hover{color:#E32264;transform:translateX(5px)}.navi-index:hover .fa-circle{transform:scale(1.2)}.navi-nav{display:block}.navi-nav-list{list-style-type:none}.navi-nav-list li{display:inline-block}.navi-nav-list a{margin-top:20px;padding:7px 30px;display:block}#cta-mini{background:linear-gradient(-45deg,#412DFB 0,#E32264 100%);border-radius:100px;color:#fff}.section,.separator{background-color:#fff}.section{padding:50px 0}.section p{color:#333}.section2{height:80vh}.separator{display:block;height:400px}.section3,.section4{height:auto}.section3{background-color:#f2f2f2}.img-caption{margin-bottom:15px}.img-caption-text{background-color:#333;width:100%;margin:0;padding:15px;font-weight:300;color:#fff}.project-card-container h1,.text-gradient{font-weight:800}.img-caption-text:after{content:" ";display:block;width:50px;height:3px;background-color:#fff;margin-top:5px}.img-responsive{margin:auto}.container-fluid .img-responsive,.project-card-big,.text-overlay{border-radius:5px}.text-overlay{width:100%;padding:0;overflow:hidden}.project-card-big{width:90vw;height:80vh;background-color:#fff!important;display:block;margin:auto;background:url(../img/contratame-MacBook-Gold.jpg) center right no-repeat;background-size:50%}.project-card-big:hover{opacity:.9}.project-card-container{border-radius:5px 0 0 5px;color:#fff;width:50%;height:100%;display:block;background:linear-gradient(45deg,#412DFB -30%,#E32264 100%);background-opacity:.6;padding:50px 20px}.white-paragraph-block{padding-top:50px}.text-gradient{margin:20px 0;height:50px;font-size:40px;background:-webkit-linear-gradient(270deg,#412DFB 0,#E32264 100%);background:-o-linear-gradient(270deg,#412DFB 0,#E32264 100%);background:linear-gradient(270deg,#412DFB 0,#E32264 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}.background:after{position:absolute;content:"";height:100%;width:100%;top:0;left:0;z-index:-1;background:linear-gradient(45deg,rgba(255,0,0,0) 20%,rgba(255,0,0,.5) 100%)}.background{background-size:cover;background-position:center;background-repeat:no-repeat;width:100vw;height:100vh;position:relative}.topbar{display:block;color:#fff;padding:15px 30px}.topbar .logo h1{font-weight:300}.slogan{margin:20vh 3vw}.slogan h1{font-size:64px;font-weight:800}.footer-mail a,.goal-text{font-weight:300}.cta-container{margin-top:5vh;height:55vh;background-color:inherit}.cta{font-size:24px;color:#fff;padding:20px 60px;background-image:linear-gradient(-45deg,#412DFB 0,#E32264 100%);border-radius:80px}.cta:active,.cta:focus,.cta:hover{color:#fff;text-decoration:none;opacity:.9}.copyright,.goal-text,.opaque{opacity:.6}.footer{position:relative;height:20vh;filter:grayscale(1);background:url(../img/duotone-guacamaya.jpg) center}.copyright{margin:auto;display:block}.footer-mail{display:block;position:absolute;bottom:20px;right:20px}.footer-mail a{color:#fff}.project-page{color:#333;background-color:#f2f2f2}.project-header{background-color:#f2f2f2;display:block;width:100vw}.project-header h1{margin-top:5vh}.bullets{padding:25px}.goals{text-align:center;padding:15px;transform:scale(1.1)}.goals .fa-mobile{margin:.1em 0 0 .9em}.goal-item{max-width:150px;float:left}.nav-social{margin:0;padding:0}.nav-social .fa{color:#000;transition:all .1s ease-out;padding:15px}a{color:#000}a:hover{color:#1e90ff}.footer-project{margin:50px auto;vertical-align:middle}.constrained{max-width:600px}.container{padding:5vh 15px}.test{background-color:gray}@keyframes fadein{0%,50%{opacity:0}51%{opacity:.1}100%{opacity:1}}.mobile{display:none}@media (max-width:500px){.separator{height:200px}}@media (max-width:400px){.separator{height:100px}}@media (max-width:990px){.desktop{display:none!important}.mobile{display:block}.navi-logo-text{display:inline-block}.mobile img{width:20vw}.cta{font-size:22px}.slogan{right:10px}.slogan h1{font-size:42px}.slogan a{font-size:48px}.background{background-position:center center}.white-paragraph-block{padding-top:0}.text-gradient{height:100px;margin-top:0}}
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  51% {
+    opacity: 0.1; }
+  80% {
+    opacity: 0.9; }
+  100% {
+    opacity: 1; } }
+
+body {
+  animation: fade 2s ease-out; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  transition: all 200ms ease-out; }
+
+h4 {
+  opacity: 0.8; }
+
+.white-text {
+  color: white !important; }
+
+.card-shadow {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 52px rgba(0, 0, 0, 0.22);
+  border-radius: 10px; }
+
+.navi {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  background-color: #f2f2f2; }
+
+.navi-logo {
+  display: inline-block; }
+  .navi-logo .fa-circle, .navi-logo .navi-logo-text {
+    font-size: 24px; }
+
+.navi-wrap {
+  width: 90vw;
+  display: block;
+  margin: auto; }
+
+.navi-logo-text {
+  display: inline-block;
+  color: #333; }
+
+.navi-logo-text:hover {
+  color: #E32264;
+  transform: translateX(5px); }
+
+.navi-index:hover .fa-circle {
+  transform: scale(1.2); }
+
+.navi-nav {
+  float: right;
+  display: block; }
+
+.navi-nav-list {
+  list-style-type: none; }
+  .navi-nav-list li {
+    display: inline-block; }
+  .navi-nav-list a {
+    margin-top: 20px;
+    padding: 7px 30px;
+    display: block; }
+
+#cta-mini {
+  background: linear-gradient(-45deg, #412DFB 0%, #E32264 100%);
+  border-radius: 100px;
+  color: white; }
+  #cta-mini:hover {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 52px rgba(0, 0, 0, 0.22); }
+
+.section {
+  background-color: white;
+  padding: 50px 0px; }
+  .section p {
+    color: #333; }
+
+.section2 {
+  height: 80vh; }
+
+.separator {
+  display: block;
+  background-color: white;
+  height: 400px; }
+
+.section3 {
+  background-color: #f2f2f2;
+  height: auto; }
+
+.section4 {
+  height: auto; }
+
+.img-caption {
+  margin-bottom: 15px; }
+
+.img-caption a {
+  text-decoration: none; }
+
+.img-caption-text {
+  background-color: #333;
+  width: 100%;
+  margin: 0px;
+  padding: 15px;
+  font-weight: 300;
+  color: white; }
+  .img-caption-text:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    margin-top: 5px; }
+
+.img-responsive {
+  margin: auto; }
+
+.container-fluid .img-responsive, .text-overlay, .project-card-big {
+  border-radius: 5px; }
+
+.project-card-container {
+  border-radius: 5px 0px 0px 5px; }
+
+.text-overlay {
+  width: 100%;
+  padding: 0px;
+  overflow: hidden; }
+  .text-overlay:hover, .text-overlay:active, .text-overlay:focus {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 52px rgba(0, 0, 0, 0.22); }
+
+.project-card-big {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 52px rgba(0, 0, 0, 0.22);
+  width: 90vw;
+  height: 80vh;
+  background-color: white !important;
+  display: block;
+  margin: auto;
+  background: url("../img/contratame-MacBook-Gold.jpg");
+  background-size: 50%;
+  background-position: center right;
+  background-repeat: no-repeat; }
+  .project-card-big:hover {
+    opacity: 0.9; }
+  .project-card-big a {
+    text-decoration: none; }
+
+.project-card-container {
+  color: white;
+  display: block;
+  width: 50%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(45deg, #412DFB -30%, #E32264 100%);
+  background-opacity: 0.6;
+  padding: 50px 20px; }
+  .project-card-container h1 {
+    font-weight: 800; }
+
+.white-paragraph-block {
+  padding-top: 50px; }
+
+.text-gradient {
+  font-weight: 800;
+  margin: 20px 0px;
+  height: 50px;
+  font-size: 40px;
+  background: -webkit-linear-gradient(270deg, #412DFB 0%, #E32264 100%);
+  background: -o-linear-gradient(270deg, #412DFB 0%, #E32264 100%);
+  background: linear-gradient(270deg, #412DFB 0%, #E32264 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.background:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0) 20%, rgba(255, 0, 0, 0.5) 100%); }
+
+.background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
+
+.topbar {
+  display: block;
+  color: white;
+  padding: 15px 30px; }
+  .topbar .logo h1 {
+    font-weight: 300; }
+
+.slogan {
+  margin: 20vh 3vw 3vh; }
+  .slogan h1 {
+    font-size: 64px;
+    font-weight: 800; }
+
+.cta-container {
+  margin-top: 5vh;
+  height: 55vh;
+  background-color: inherit; }
+
+.cta {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: white;
+  padding: 20px 60px;
+  background-image: linear-gradient(-45deg, #412DFB 0%, #E32264 100%);
+  border-radius: 80px; }
+  .cta:hover, .cta:active, .cta:focus {
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 52px rgba(0, 0, 0, 0.22);
+    opacity: 0.9; }
+
+.breadcrumb a:last-child {
+  float: right; }
+
+.footer {
+  position: relative;
+  height: 20vh;
+  filter: grayscale(1);
+  background: url("../img/duotone-guacamaya.jpg") center; }
+
+.copyright {
+  opacity: 0.6;
+  margin: auto;
+  display: block; }
+
+.footer-mail {
+  display: block;
+  position: absolute;
+  bottom: 40vh;
+  right: 5vw; }
+  .footer-mail a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300; }
+
+.project-page {
+  color: #333;
+  background-color: #f2f2f2; }
+
+.project-header {
+  background-color: #f2f2f2;
+  display: block;
+  width: 100vw; }
+  .project-header h1 {
+    margin-top: 5vh; }
+
+.bullets {
+  padding: 25px; }
+
+.goals {
+  text-align: center;
+  padding: 15px;
+  transform: scale(1.1); }
+  .goals .fa-mobile {
+    margin: 0.1em 0em 0em 0.9em; }
+
+.goal-item {
+  max-width: 150px;
+  float: left; }
+
+.goal-text {
+  font-weight: 300;
+  opacity: 0.6; }
+
+.opaque {
+  opacity: 0.6; }
+
+.nav-social {
+  margin: 0px;
+  padding: 0px; }
+
+.nav-social .fa {
+  color: black;
+  transition: all 100ms ease-out;
+  box-sizing: border-box;
+  padding: 15px; }
+
+a {
+  color: black; }
+
+a:hover {
+  color: dodgerblue;
+  text-decoration: none; }
+
+.footer-project {
+  margin: 50px auto;
+  vertical-align: middle; }
+
+.constrained {
+  max-width: 600px; }
+
+.container {
+  padding: 5vh 15px; }
+
+.test {
+  background-color: gray; }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  51% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
+
+.mobile {
+  display: none; }
+
+@media (max-width: 990px) {
+  .desktop {
+    display: none !important; }
+  .mobile {
+    display: block; }
+  .navi-logo-text {
+    display: inline-block; }
+  .mobile img {
+    width: 20vw; }
+  .cta {
+    font-size: 22px; } }
+
+@media (max-width: 500px) {
+  .separator {
+    height: 200px; } }
+
+@media (max-width: 400px) {
+  .separator {
+    height: 100px; } }
+
+@media (max-width: 990px) {
+  .slogan {
+    text-align: center;
+    right: 10px; }
+    .slogan h1 {
+      font-size: 42px; }
+    .slogan a {
+      font-size: 48px; }
+  .background {
+    background-position: center center; }
+  .white-paragraph-block {
+    padding-top: 0px; }
+  .text-gradient {
+    height: 100px;
+    margin-top: 0px; } }
