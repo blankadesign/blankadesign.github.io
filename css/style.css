@@ -278,7 +278,8 @@ h4 {
 
 .goal-item {
   max-width: 150px;
-  float: left; }
+  float: left;
+  opacity: 0.6; }
 
 .goal-text {
   font-weight: 300;

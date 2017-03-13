@@ -1,4 +1,6 @@
-<!-- contratame.html -->
+<!-- //prototipos.html -->
+
+<!-- // this is the index file -->
 
 <!DOCTYPE html>
 <html>
@@ -26,11 +28,28 @@
 
 <!-- favicons -->
 
-</head>
+<style>
+	@keyframes fadein {
+		  0% {
+		    opacity: 0; }
+		  50% {
+		    opacity: 0; }
+		  51% {
+		    opacity: 0.1; }
+	    80% {
+	    opacity: 0.9; }		
+		  100% {
+		    opacity: 1; } 
+		  }
+		  
+.fade {
+	animation: fadein 3s ease-out;
+	animation-fill-mode: forwards;
+}
 
+</style>
 
-<body style="background-color: #f2f2f2; animation: fadein 1200ms ease-out;">
-
+<body class="project-page">
 
 
 <!-- navigation -->
@@ -58,63 +77,27 @@
 </div>
 
 
-<!-- header -->
-
-<div class="container text-center">
-	<div class="container text-center">
-		<h1 class="text-gradient">Contrátame.co</h1>
-		<h4>Connecting experts with their clients.</h4>
-		<br>
-		<img class="img-header img-responsive" src="img/contratame-header.png">
-	</div>
+<!--header-->
+<div class="container text-center project-header">
+	<h1 class="text-gradient">Prototypes</h1>
+	<h4 class="constrained" style="margin: auto;">Test your ideas before building the actual product. Our team excels at creating interactive, native-like prototypes for desktop and mobile applications.</h4>
+	<img class="img-responsive" src="img/sidebar.gif">
 </div>
 
-<!-- The Project-->
-<div class="container project-container">
-
+<!--grid-->
+<div class="container-fluid" style="padding: 5vh;">
 	<div class="row">
-		<div class="col-xs-12 col-md-6 constrained">
-			<h1>The Project</h1>
-			<p>
-			Contrátame.co​, it's an platform that connects expeperts with their clients in a user-friendly way.<br><br>
-			The brilliant backend of Contratame was developed by <a href="https://goo.gl/L7y25a">Kipersoft.</a>
-		</p>
-
-		<br>
-			<h1>The Project</h1>
-			
-				<div class="goals">
-					<div class="goal-item col-xs-4">
-						<h6 class="goal-text"> Responsive Design</h6>
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-desktop fa-stack-2x"></i>
-							<i class="fa fa-mobile fa-stack-2x"></i>
-						</span>
-					</div>
-					<div class="goal-item col-xs-4">
-						<h6 class="goal-text"> Globally scalable</h6>
-						<span style="font-size: 3em; line-height: 0;"><i class="fa fa-globe"></i></span>
-					</div>
-
-					<div class="goal-item col-xs-4">
-						<h6 class="goal-text"> Simple and User-friendly</h6>
-						<span style="font-size: 3em; line-height: 0;"><i class="fa fa-smile-o"></i></span>
-					</div>
-				</div>
-
-
-
-
+		<div class="col-xs-12 col-md-4">
+			<img class="img-responsive" src="img/interaction-agileapp.gif"><br>
+		</div>	
+		<div class="col-xs-12 col-md-4">
+			<img class="img-responsive" src="img/interaction-cards.gif"><br>
 		</div>
-		<div class="col-xs-12 col-md-6 col-lg-6">
-			<img class="img-responsive" src="img/contratame-movil.png">
+		<div class="col-xs-12 col-md-4">
+			<img class="img-responsive" src="img/038-calendar.gif"><br>
+			</div>
 		</div>
-		
-	</div>
-</div> 
-
-
-<img class="img-responsive" src="img/mockup-contratame-foto.png">
+</div>
 
 
 <!-- cta-->
@@ -130,16 +113,5 @@
 
 
 
-
-
 </body>
 </html>
-
-
-
-
-
-
-
-
-
