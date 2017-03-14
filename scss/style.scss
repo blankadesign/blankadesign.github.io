@@ -400,7 +400,7 @@ h4 { opacity: 0.8;
 
 .mobile {display: none;}
 
-
+// navbar
 @media (max-width: 990px) {
 	.desktop {display: none !important;}
 	.mobile {display: block;}
@@ -412,6 +412,7 @@ h4 { opacity: 0.8;
 	}
 } 
 
+// separator
 @media (max-width: 500px) {
 	.separator {height: 200px;}
 }
@@ -419,7 +420,7 @@ h4 { opacity: 0.8;
 	.separator {height: 100px;}
 }
 
-
+// home jumbotron header
 @media (max-width: 990px) {
 	.slogan {
 		text-align: center;
@@ -445,6 +446,8 @@ h4 { opacity: 0.8;
     display: block;
 	}
 }
+
+// iphone 4
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)
 {
   #footer {
