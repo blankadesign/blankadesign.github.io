@@ -231,6 +231,12 @@ h4 {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 52px rgba(0, 0, 0, 0.22);
     opacity: 0.9; }
 
+#header-cta {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 52px rgba(0, 0, 0, 0.22); }
+  #header-cta:hover, #header-cta:active, #header-cta:focus {
+    opacity: 1;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3); }
+
 .breadcrumb a:last-child {
   float: right; }
 
