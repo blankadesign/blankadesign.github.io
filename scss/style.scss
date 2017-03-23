@@ -26,12 +26,23 @@ body {
 	transition: all 200ms ease-out;
 }
 
+h1 {
+	font-weight: 800 !important;
+}
+
 h4 { opacity: 0.8;
 	line-height: 1.5;
 }
 
 .white-text {
 	color: white !important;
+}
+
+.card-standard {
+	background-color: white !important;
+	padding: 60px;
+	max-width: 600px;
+	margin: auto;
 }
 
 .card-shadow {
@@ -132,7 +143,7 @@ h4 { opacity: 0.8;
 	width: 100%;
 	margin: 0px;
 	padding: 15px;
-	font-weight: 300;
+	font-weight: 400;
 	color: white;
 	&:after {
 		content: " ";
@@ -197,6 +208,8 @@ h4 { opacity: 0.8;
 	}
 }
 
+
+
 .white-paragraph-block {
 	padding-top: 50px;
 }
@@ -240,7 +253,7 @@ h4 { opacity: 0.8;
 	color: white;
 	padding: 15px 30px;
 	.logo h1 {
-		font-weight: 300;
+		font-weight: 400;
 	}
 }
 
@@ -265,7 +278,7 @@ h4 { opacity: 0.8;
 	color: white;
 	padding: 20px 60px;
 	background-image: linear-gradient(-45deg, #412DFB 0%, #E32264 100%);
-	border-radius: 80px;
+	border-radius: 80px !important;
 	&:hover, &:active, &:focus {
 		color: white;
 		text-decoration: none;
@@ -306,7 +319,7 @@ h4 { opacity: 0.8;
 	a {
 		color: white;
 		text-decoration: none;
-		font-weight: 300;
+		font-weight: 400;
 	}
 }
 
@@ -345,10 +358,13 @@ h4 { opacity: 0.8;
 }
 
 .goal-text {
-	font-weight: 300;
+	font-weight: 400;
 	opacity: 0.6;
 }
-
+// mailchimp
+.mc-field-group {
+	max-width: 500px;
+}
 
 
 
