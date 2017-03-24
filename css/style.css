@@ -21,12 +21,21 @@ body {
   font-size: 16px;
   transition: all 200ms ease-out; }
 
+h1 {
+  font-weight: 800 !important; }
+
 h4 {
   opacity: 0.8;
   line-height: 1.5; }
 
 .white-text {
   color: white !important; }
+
+.card-standard {
+  background-color: white !important;
+  padding: 60px;
+  max-width: 600px;
+  margin: auto; }
 
 .card-shadow {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 52px rgba(0, 0, 0, 0.22);
@@ -113,7 +122,7 @@ h4 {
   width: 100%;
   margin: 0px;
   padding: 15px;
-  font-weight: 300;
+  font-weight: 400;
   color: white; }
   .img-caption-text:after {
     content: " ";
@@ -204,7 +213,7 @@ h4 {
   color: white;
   padding: 15px 30px; }
   .topbar .logo h1 {
-    font-weight: 300; }
+    font-weight: 400; }
 
 .slogan {
   margin: 10vh 3vw 3vh; }
@@ -224,7 +233,7 @@ h4 {
   color: white;
   padding: 20px 60px;
   background-image: linear-gradient(-45deg, #412DFB 0%, #E32264 100%);
-  border-radius: 80px; }
+  border-radius: 80px !important; }
   .cta:hover, .cta:active, .cta:focus {
     color: white;
     text-decoration: none;
@@ -259,7 +268,7 @@ h4 {
   .footer-mail a {
     color: white;
     text-decoration: none;
-    font-weight: 300; }
+    font-weight: 400; }
 
 .project-page {
   color: #333;
@@ -288,8 +297,11 @@ h4 {
   opacity: 0.6; }
 
 .goal-text {
-  font-weight: 300;
+  font-weight: 400;
   opacity: 0.6; }
+
+.mc-field-group {
+  max-width: 500px; }
 
 .opaque {
   opacity: 0.6; }
